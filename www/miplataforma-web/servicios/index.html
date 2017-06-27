@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="WebBancoChile" ng-controller="AppCtrl">
+<head>
+    <title ng-bind="pageTitle"></title>
+
+    <!-- social media tags -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- compiled CSS -->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/angular-ui-select/dist/select.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/ng-scrollbar/dist/ng-scrollbar.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/ionicons/css/ionicons.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/ladda/dist/ladda-themeless.min.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/sweetalert-ui/lib/sweet-alert.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/clockpicker/dist/bootstrap-clockpicker.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/clockpicker/dist/jquery-clockpicker.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/ng-sticky-element/dist/ng-sticky-element.min.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/angular-loading-bar/build/loading-bar.min.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/angular-toastr/dist/angular-toastr.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/angular-progress-button-styles/dist/angular-progress-button-styles.min.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/angular-xeditable/dist/css/xeditable.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/angular-ui-grid/ui-grid.css" />
+    <link rel="stylesheet" type="text/css" href="assets/taurus-serv-cuenta--1.8.0-build.12.css" />
+    <!-- compiled JavaScript -->
+    <script type="text/javascript" src="assets/taurus-serv-cuenta-1.8.0-build.12_vendor.js"></script>
+    <script type="text/javascript" src="assets/taurus-serv-cuenta-1.8.0-build.12_taurus.js"></script>
+    <script type="text/javascript" src="assets/taurus-serv-cuenta-1.8.0-build.12_html.js"></script>
+    <script type="text/javascript" src="assets/taurus-serv-cuenta-1.8.0-build.12_app.js"></script>
+
+</head>
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if !IE9]><!--><body> <!--<![endif]-->
+
+    <div class="principal-container">
+        <section ui-view="main" class="container clearfix"></section>
+    </div>
+    <!--<section class="box-over">
+        <h2>Notificaciones <i class="ion-close-round box-over__close"></i></h2>
+        <p class="functionality-in-progress">Funcionalidad en desarrollo</p>
+    </section>-->
+
+    <!--<footer ui-view="footer" class="footer-ppal col-xs-12 col-sm-12 col-md-12 col-lg-12"></footer>-->
+
+</html>

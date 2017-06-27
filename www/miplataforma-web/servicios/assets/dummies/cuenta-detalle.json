@@ -1,0 +1,16 @@
+{
+  "nombreComercial": "CtaCte Normal MN Consumo",
+  "productoComercial": "Normal",
+  "indicadorBloqueo": false,
+  "indicadorBloqueoCliente": true,
+  "moneda": "PESO CHILENO",
+  "razonBloqueo": {
+    "codigo": "0",
+    "descripcion": "Fallecimiento"
+  },
+  "subEstadoCuenta": {
+    "codigo": "NRNJ",
+    "descripcion": "Bloqueo interno"
+  },
+  "tiposBloqueo": "Cargo, abono"
+}
